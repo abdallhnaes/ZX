@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.naes.dieselstand'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.naes.dieselstand'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
